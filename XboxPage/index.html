@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- css mio -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>XBOX</title>
+</head>
+<body>
+<!-- nav bar -->
+<div class="container-fluid">
+  <div class="row bg-dark">
+    <div class="py-1">
+      <img class="ps-foot float-end" src="img/Microsoft-Logo.png" alt="Microsoft">
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/play_logo.svg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Game Pass
+          </a>
+          <ul class="dropdown-menu max-width" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/Xbox_one_logo.svg.png" alt="">
+                        <div class="text-center">
+                          Descripción General
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/pass.svg" alt="">
+                        <div class="text-center">
+                          Explorar Juegos
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/pass.svg" alt="">
+                        <div class="text-center">
+                          PC Game Pass
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        +100 Juegos Disponibles
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        EA Play
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Xbox Games Studio
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Juegos
+          </a>
+          <ul class="dropdown-menu max-width" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/controlgame.svg" alt="">
+                        <div class="text-center">
+                          Juegos de consola
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/controlgame.svg" alt="">
+                        <div class="text-center">
+                          Juegos de PC
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/controlgame.svg" alt="">
+                        <div class="text-center">
+                          Todos los juegos
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Consola
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Pc
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Más....
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dispositivos
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/consola.svg" alt="">
+                        <div class="text-center">
+                          Xbox Consolas
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/controlgame.svg" alt="">
+                        <div class="text-center">
+                          Controles
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/audifonos.svg" alt="">
+                        <div class="text-center">
+                          Audífonos
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Partes
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Entretenimiento
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        really soon...
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Comunidad
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/person.svg" alt="">
+                        <div class="text-center">
+                          Comunidad
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/person.svg" alt="">
+                        <div class="text-center">
+                          Para todas las edades
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/pass.svg" alt="">
+                        <div class="text-center">
+                          Apps y entretenimiento
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Canal de Youtube
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Canal de Twitch
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Sugerencias
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Compatible
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/person.svg" alt="">
+                        <div class="text-center">
+                          Inicio del soporte técnico
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/consola.svg" alt="">
+                        <div class="text-center">
+                          Estado de XBOX
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/audifonos.svg" alt="">
+                        <div class="text-center">
+                          Temas de ayuda
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Compra Juegos de Xbox One
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Compra Juegos de Xbox 360
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Venta
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mi Xbox
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/Xbox_one_logo.svg.png" alt="">
+                        <div class="text-center">
+                          Inicio
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/person.svg" alt="">
+                        <div class="text-center">
+                          Perfil
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/person.svg" alt="">
+                        <div class="text-center">
+                          ID Xbox
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Asistencia
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Estado de Consola
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        realy soon...
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <!-- nav a destra -->
+      <ul class="navbar-nav align-items-lg-center align-items-left">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Carro de  Compra
+          </a>
+          <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/controlgame.svg" alt="">
+                        <div class="text-center">
+                          Articulos
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/consola.svg" alt="">
+                        <div class="text-center">
+                          Accesorios
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img class="img-dd-menu" src="img/audifonos.svg" alt="">
+                        <div class="text-center">
+                          Juegos
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                </div>
+                <div class="col">
+                  <li>
+                    <hr class="border border-dark">
+                  </li>
+                </div>
+                <div class="col">
+                  <div class="cont-nav-bar">
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Biblioteca
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Ofertas
+                      </a>
+                    </li>
+                    <li class="li-circle mx-2">
+                      <a class="dropdown-item" href="#">
+                        Amigos
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <button type="button" class="btn btn-secondary rounded-pill">
+              Iniciar sesión
+            </button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">
+                                    <img class="globe-img" src="img/lens.svg" alt="">
+                                </span>
+              <input type="text" class="form-control d-lg-none d-block " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- banner 1 -->
+<section class="container-fluid banner1">
+  <div class="row p-5">
+    <div class="col-12 col-sm-9 col-md-6 col-lg-4  text-white ">
+      <!-- nome gioco -->
+      <div class="cont-img">
+        <img class="img-fluid" src="img/elden%20ring%20logo.png" alt="">
+      </div>
+      <!-- titolo -->
+      <h1 class="my-4">
+        ÁLZATE, SIN LUZ
+      </h1>
+      <!-- descrizione -->
+      <p class="my-4">
+        Déjate guiar por la gracia para usar el poder del Anillo de Elden y conviértete en un Señor de Elden en las Tierras Intermedias.
+      </p>
+      <!-- bottone -->
+      <button type="button" class="btn btn-danger rounded-pill">
+        CONSÍGUELO AHORA
+      </button>
+    </div>
+  </div>
+
+</section>
+<!-- immagini gioco -->
+<figure class="container">
+  <div class="row row-cols-lg-6 row-cols-md-3 row-cols-2 ">
+    <div class="col p-3">
+      <div class="cont-img-game">
+        <img class="img-fluid bord-25 img-selected" src="img/elden-ring-keyart-01-en-24jan22.jpg" alt="">
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="cont-img-game">
+        <img class="img-fluid bord-25" src="img/elden-ring-keyart-01-en-24jan22.jpg" alt="">
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="cont-img-game">
+        <img class="img-fluid bord-25" src="img/elden-ring-keyart-01-en-24jan22.jpg" alt="">
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="cont-img-game">
+        <img class="img-fluid bord-25" src="img/elden-ring-keyart-01-en-24jan22.jpg" alt="">
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="cont-img-game">
+        <img class="img-fluid bord-25" src="img/elden-ring-keyart-01-en-24jan22.jpg" alt="">
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="cont-img-game">
+        <img class="img-fluid bord-25" src="img/elden-ring-keyart-01-en-24jan22.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</figure>
+<!-- presentazione ps5 -->
+<main>
+  <section class="container">
+    <div class="row">
+      <div class="col text-center py-5">
+        <!-- titolo -->
+        <h4 class="text-primary">
+          MICROSOFT
+        </h4>
+        <h1>
+          Xbox Game Pass Ultimate
+        </h1>
+        <!-- descrizione -->
+        <span class="text-black-50">
+                        Incluye más de 100 juegos de alta calidad, Xbox Live Gold, EA Play y otras ventajas
+                    </span>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-5 col-offset-md-1 col-sm-12 ">
+        <!-- titolo -->
+        <h1>
+          Xbox Game Pass
+        </h1>
+        <!-- descrizione -->
+        <p>
+          Xbox Game Pass Ultimate incluye Xbox Live Gold y más de 100 juegos de alta calidad. Juega con amigos en tu consola y PC y consigue una suscripción a EA Play, todo por un bajo precio mensual.
+        </p>
+        <!-- bottone -->
+        <button type="button" class="btn btn-primary rounded-pill">
+          ÚNETE AHORA
+        </button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <!-- immagine -->
+        <div>
+          <img class="img-fluid" src="img/gamepass.jpg" alt="Game pass">
+        </div>
+      </div>
+    </div>
+    <!-- immagini prodotti -->
+    <figure  class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-3 row-cols-3 text-center text-black-50">
+      <!-- immagine -->
+      <div class="col product-selected selection">
+        <img class="height-img" src="img/xbox-live-gold.png" alt="">
+        <div class="text-dark">
+          Xbox Live Gold incluido
+        </div>
+      </div>
+      <div class="col selection">
+        <img class="height-img opacity-50 in-selection" src="img/1024px-EA_Play_logo.svg.png" alt="">
+        <div>
+          Suscripción a EA Play incluida
+        </div>
+      </Div>
+      <div class="col selection">
+        <img class="height-img opacity-50 in-selection" src="img/controlxboxpng.png" alt="">
+        <div>
+          Juega directamente en tu consola y PC
+        </div>
+      </div>
+      <div class="col selection">
+        <img class="height-img opacity-50 in-selection" src="img/descargaxbox.png" alt="">
+        <div>
+          Descargar juegos para consola y PC
+        </div>
+      </div>
+      <div class="col selection">
+        <img class="height-img opacity-50 in-selection" src="img/recompensaxbox.png" alt="">
+        <div>
+          Recompensas gratuitas y descuentos exclusivos para miembros
+        </div>
+      </div>
+      <!-- descrizione -->
+    </figure>
+  </section>
+
+  <!-- banner 2 & nuove uscite -->
+  <section class="bg-dark">
+    <!-- banner 2 -->
+    <div class="container-fluid banner2 my-5">
+      <div class="row p-5">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6  text-white ">
+          <!-- nome gioco -->
+          <div class="cont-img">
+            <img class="img-fluid" src="img/victoriaxboxjpg.jpg" alt="">
+          </div>
+          <!-- titolo -->
+          <h1 class="my-4">
+            Reclama la victoria
+          </h1>
+          <!-- descrizione -->
+          <p class="my-4">
+            Paquete Xbox Series S: Fortnite y Rocket League
+          </p>
+          <!-- bottone -->
+          <button type="button" class="btn btn-danger rounded-pill">
+            MÁS INFORMACIÓN
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- nuove uscite -->
+    <div class="container text-white pb-5">
+      <div class="row">
+        <!-- titolo -->
+        <h2 class="my-3">
+          CATÁLOGO DE JUEGOS DE XBOX
+        </h2>
+        <!-- descrizione -->
+        <p>
+          Explora el catálogo completo de juegos para consola Xbox y PC.
+        </p>
+      </div>
+      <div class="row row-cols-lg-6 row-cols-md-3 row-cols-2 ">
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/witcher.jpg" alt="">
+          <div>
+            The Witcher 3: Wild Hunt
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/assasins.jpg" alt="">
+          <div>
+            Assassin's Creed Valhalla
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/mortal.jpg" alt="">
+          <div>
+            Mortal Kombat 11 Ultimate
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/need.jpg" alt="">
+          <div>
+            Need For Speed Heat
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/minecraft-xbox.jpg" alt="">
+          <div>
+            Minecraft
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/xb_cyber.jpg" alt="">
+          <div>
+            Cyberpunk 2077
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-lg-6 row-cols-md-3 row-cols-2 ">
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/nba.jpg" alt="">
+          <div>
+            NBA 2K22
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/forza5.gif" alt="">
+          <div>
+            Forza Horizon 5
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/gears-of-war-5.jpg" alt="">
+          <div>
+            Gears 5
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/devil5.jpg" alt="">
+          <div>
+            Devil May Cry 5
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/starwars.jpg" alt="">
+          <div>
+            STAR WARS™ Battlefront™
+          </div>
+        </div>
+        <div class="col p-3">
+          <img class="img-fluid bord-25" src="img/tom.jpg" alt="">
+          <div>
+            Tom Clancy’s Ghost Recon® Wildlands
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- esplora ps4 -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col text-center py-5">
+        <!-- titolo -->
+        <h1>
+          Celebremos juntos los 20 años de Xbox
+        </h1>
+        <!-- descrizione -->
+        <span class="text-black-50">
+                       Aún más diversión para celebrar los 20 años de Xbox
+                        <br>
+                        Los recuerdos que hemos creado... las amistades que hemos fomentado... los juegos que hemos disfrutado juntos.
+                    </span>
+      </div>
+    </div>
+    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-1">
+      <div class="col">
+        <img class="img-fluid" src="img/xbox20.jpg" alt="">
+        <h2 class="my-3">
+          Control inalámbrico Xbox: Edición especial del 20º aniversario
+        </h2>
+        <div>
+          Gatillos y botones texturizados I Pad direccional híbrido I Asignación de botones I Tecnología Bluetooth®
+        </div>
+        <button type="button" class="btn btn-primary rounded-pill my-3">
+          Más información
+        </button>
+      </div>
+      <div class="col">
+        <img class="img-fluid" src="img/xbox8.jpg" alt="">
+        <h2 class="my-3">
+          8BitDo SN30 Pro
+        </h2>
+        <div>
+          Clip para juegos en dispositivos móviles de nivel profesional incluido I Compatibilidad con Ultimate Software I Control Bluetooth I Batería recargable de 18 horas
+        </div>
+        <button type="button" class="btn btn-primary rounded-pill my-3">
+          Más información
+        </button>
+      </div>
+      <div class="col">
+        <img class="img-fluid" src="img/xboxaudifonos.jpg" alt="">
+        <h2 class="my-3">
+          Audífonos estéreo de Xbox: Edición especial del 20º aniversario
+        </h2>
+        <div>
+          Ergonomía cómoda I Ajuste universal I Ligeros y flexibles
+        </div>
+        <button type="button" class="btn btn-primary rounded-pill my-3">
+          Más información
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- follow sui social -->
+<section class="container text-center my-5">
+  <!-- titolo -->
+  <div class="row">
+    <div class="col">
+      <h1>
+        Síguenos en redes sociales
+      </h1>
+    </div>
+  </div>
+  <!-- 4 social -->
+  <div class="row row-cols-2 row-cols-md-4">
+    <div class="col p-4">
+      <img class="img-fluid" src="img/Twitter-Logo.png" alt="twitter">
+    </div>
+    <div class="col p-4">
+      <img class="img-fluid" src="img/facebooktran.png" alt="facebook">
+    </div>
+    <div class="col p-4">
+      <img class="img-fluid" src="img/insta.png" alt="instagram">
+    </div>
+    <div class="col p-4">
+      <img class="img-fluid" src="img/youtube-blanco.png" alt="youtube">
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="container-fluid">
+  <section class="container text-white py-5">
+    <!-- row1 -->
+    <div class="row">
+      <!-- PS Country -->
+      <div class="col-lg-6 col-md-12">
+        <img class="ps-foot my-5" src="img/Microsoft-Logo.png" alt="">
+        <div>
+          <img class="globe-img p-1 " src="img/globo.png" alt="">
+          Country / Region: Colombia
+        </div>
+      </div>
+      <!-- Link -->
+      <div class="col-lg-6 col-md-12 my-5">
+        <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1">
+          <div class="col">
+            <ul>
+              <li>
+                Examinar
+              </li>
+              <li>
+                Xbox consolas
+              </li>
+              <li>
+                Juegos de Xbox
+              </li>
+              <li>
+                Xbox Game Pass
+              </li>
+              <li>
+                Accesorios para Xbox
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                Recursos
+              </li>
+              <li>
+                Noticias de Xbox
+              </li>
+              <li>
+                Soporte técnico de Xbox
+              </li>
+              <li>
+                Comentarios
+              </li>
+              <li>
+                Estándares de la comunidad
+              </li>
+              <li>
+                Advertencia sobre ataques fotosensibles
+              </li>
+              <li>
+                Cuenta de Microsoft
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                Soporte técnico de Microsoft Store
+              </li>
+              <li>
+                Devoluciones
+              </li>
+              <li>
+                Seguimiento de pedidos
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row2 -->
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="ps-foot" src="img/Microsoft-Logo.png" alt="sie">
+        <p>
+          Website &copy;2022  © Microsoft 2022
+        <center>&copy;Andres Felipe Diaz Silvera</center>
+      </div>
+    </div>
+  </section>
+</footer>
+<!-- link al file Javascript bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* font family */
+body {
+  font-family: Arial;
+}
+nav {
+  font-family:  Helvetica;
+}
+
+/* generali */
+.height-img {
+  height: 100px;
+}
+
+.product-selected{
+  border-bottom: 2px lawngreen;
+}
+
+.bord-25 {
+  border-radius: 25px;
+}
+
+.bg-dark {
+  background-color: darkgreen !important;
+}
+
+/* banner */
+.cont-img {
+  width: 200px;
+}
+
+.cont-img-game {
+  width: 150px;
+  height: 100px;
+}
+
+/* banner  1*/
+.banner1 {
+  background: url(../img/elden-ring-keyart-01-en-24jan22.jpg) center;
+}
+
+.banner1 .row {
+  height: 650px;
+  align-items: flex-end;
+}
+
+/* immagini banner 1 selezionate */
+.img-selected {
+  border: darkgreen;
+}
+
+/* banner 2 */
+.banner2 {
+  background: url(../img/victoria1.jpg) center ;
+}
+
+/* nuove uscite */
+.cont-game-to-buy {
+  width: 150px;
+}
+
+/* ps-plus & ps now*/
+.ps-plus {
+  width: 50%;
+}
+
+.bg-ps-now {
+  background: forestgreen;
+}
+
+footer {
+  background-color: darkgreen;
+}
+
+/* footer */
+.ps-foot {
+  width: 100px;
+}
+
+.globe-img {
+  width: 30px;
+}
+
+footer ul {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+button:hover {
+  outline: darkgreen rgb(60, 166, 69);
+}
+
+.selection:hover .in-selection {
+  opacity: 1 !important;
+}
+
+/* nav bar bonus */
+.cont-nav-bar {
+  height: auto;
+  max-height: 300px;
+  display: flex;
+  justify-content: center !important;
+  margin: 0 200px;
+  padding: 20px;
+}
+
+.img-dd-menu {
+  width: 100px;
+  height: 100px;
+}
+
+.li-circle {
+  list-style-type: disc;
+}
